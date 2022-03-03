@@ -8,6 +8,7 @@ const app = express()
 
 app.use(cors())
 
+
 //random words API
 app.get('/word', (req, res) => {
     //run axios code
